@@ -85,7 +85,7 @@ export const displayCoin = (deposit: Coin) => {
 export async function fetchAndConvertToJSON() {
   try {
     const response = await fetch(
-      'https://raw.githubusercontent.com/TuanTQ15/namada-explorer/master/public/parameters.toml'
+      'https://raw.githubusercontent.com/Catenika/namse/master/public/parameters.toml'
     )
     const data = await response.text()
 
